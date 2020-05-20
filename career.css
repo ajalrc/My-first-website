@@ -1,0 +1,39 @@
+ul {
+  font-size: 20px;
+  color: green;
+}
+
+h1 {
+  color: red;
+}
+
+h2 {
+  color: navy;
+}
+
+.one, .two, .three, .four, .five {
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.one {
+  background-color: green;
+}
+
+.two {
+  background-color: skyblue;
+}
+
+.three {
+  background-color: yellow;
+}
+
+.four {
+  background-color: purple;
+}
+
+.five {
+  background-color: red;
+}
+/*# sourceMappingURL=career.css.map */

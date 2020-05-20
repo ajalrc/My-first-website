@@ -1,0 +1,38 @@
+$color: green;
+
+ul {
+    font-size:20px;
+    color:$color;
+}
+h1{
+    color:red;
+}
+h2{
+    color:navy;
+}
+
+%common{
+    font-family:Arial;
+    font-size: 20px;
+    font-weight: bold;
+}
+.one{
+    @extend %common;
+    background-color:green;
+}
+.two{
+    @extend %common;
+    background-color:skyblue;
+}
+.three{
+    @extend %common;
+    background-color:yellow;
+}
+.four{
+    @extend %common;
+    background-color:purple;
+}
+.five{
+    @extend %common;
+    background-color:red;
+}
